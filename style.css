@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+.image-container {
+
+    
+    padding-top: 100px;
+
+}
+
+.imma {
+    position: relative;
+}
+
+.image {
+    height: 450;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.save {
+    position: absolute;
+    top: 15px;
+    left: 840px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3em;
+    background-color: red;
+    height: 60px;
+    width: 90px;
+    border: 70px;
+    cursor: pointer;
+    
+}
+
+
+  
+  .save:hover {
+    padding-top:10px;
+  }
+  
+
+.share-icon {
+    position: relative;
+}
+
+.icona {
+    background-color: #F0F0F0;
+}
+
+.share {
+    position: absolute;
+    top: -70px;
+    right: 680px;
+    height: 50px;
+    width: 50px;
+    background-color: #F0F0F0;
+    border-radius: 50px;
+
+}
+
+.share:hover {
+    padding-bottom:10px;
+  }
+
+.arrow-icon {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: -70px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+    background-color: #F0F0F0;
+    border-radius: 50px;
+    
+}
+
+.dot-icon {
+    position: relative;
+    
+}
+
+.dot {
+    position: absolute;
+    top: -70px;
+    left: 870px;
+    width: 50px;
+    height: 50px;
+    background-color: #F0F0F0;
+    border-radius: 50px;
+    
+}
+
