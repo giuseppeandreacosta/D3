@@ -4,31 +4,24 @@
 }
 
 body {
-    text-align: center;
-    
+    background-image: url(/img/511f36277acfd59de410143dea352bfa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 700px;
+    width: 80px;
+    border-radius: 10px;
 }
 
-.image-container {
 
-    
-    padding-top: 100px;
 
-}
 
-.image-bg {
-    position: relative;
-}
 
-.image {
-    height: 450;
-    width: 350px;
-    border-radius: 20px;
-}
 
 .save {
     position: absolute;
-    top: 15px;
-    left: 840px;
+    top: 70px;
+    left: 1050px;
     border-radius: 30px;
     color: white;
     font-weight: 500;
@@ -53,18 +46,20 @@ body {
 
 .share {
     position: absolute;
-    top:-70px;
-    right:680px;
+    top:580px;
+    left: 1000px;
     font-size: 45px;
     background-color: transparent;
     border-radius: 50px;
     cursor: pointer;
+    background-color: #F0F0F0;
+    
     
 }
 
 
 .share:hover {
-    padding-bottom: 10px;
+    padding: 20px 0;
 }
 
 .arrow-icon {
@@ -73,18 +68,17 @@ body {
 
 .arrow {
     position: absolute;
-    top:-88px;
-    right:830px;
+    top:565px;
+    left:800px;
     font-size: 45px;
     background-color: transparent;
-    
     cursor: pointer;
-    width: 10%;
     border-radius: 50px;
+    background-color: #F0F0F0;
 }
 
 .arrow:hover{
-    padding-bottom: 30px;
+    padding: 20px 0;
 }
 
 .dot-icon{
@@ -93,11 +87,16 @@ body {
 
 .dot {
     position: absolute;
-    top: -100px;
-    right:615px;
+    top:545px;
+    left:1080px;
     font-size: 45px;
     background-color: transparent;
     border-radius: 50px;
     cursor: pointer;
+    background-color: #F0F0F0;
 
+}
+
+.dot:hover{
+    padding: 20px 0;
 }
