@@ -5,7 +5,7 @@
 
 body {
     text-align: center;
-    background-color: black;
+    
 }
 
 .image-container {
@@ -15,7 +15,7 @@ body {
 
 }
 
-.imma {
+.image-bg {
     position: relative;
 }
 
@@ -47,29 +47,25 @@ body {
     padding-top:10px;
   }
   
-
 .share-icon {
     position: relative;
 }
 
-.icona {
-    background-color: #F0F0F0;
-}
-
 .share {
     position: absolute;
-    top: -70px;
-    right: 680px;
-    height: 50px;
-    width: 50px;
-    background-color: #F0F0F0;
+    top:-70px;
+    right:680px;
+    font-size: 45px;
+    background-color: transparent;
     border-radius: 50px;
-
+    cursor: pointer;
+    
 }
 
+
 .share:hover {
-    padding-bottom:10px;
-  }
+    padding-bottom: 10px;
+}
 
 .arrow-icon {
     position: relative;
@@ -77,28 +73,31 @@ body {
 
 .arrow {
     position: absolute;
-    top: -70px;
-    left: 600px;
-    width: 50px;
-    height: 50px;
-    background-color: #F0F0F0;
-    border-radius: 50px;
+    top:-88px;
+    right:830px;
+    font-size: 45px;
+    background-color: transparent;
     
+    cursor: pointer;
+    width: 10%;
+    border-radius: 50px;
 }
 
-.dot-icon {
+.arrow:hover{
+    padding-bottom: 30px;
+}
+
+.dot-icon{
     position: relative;
-    
 }
 
 .dot {
     position: absolute;
-    top: -70px;
-    left: 870px;
-    width: 50px;
-    height: 50px;
-    background-color: #F0F0F0;
+    top: -100px;
+    right:615px;
+    font-size: 45px;
+    background-color: transparent;
     border-radius: 50px;
-    
-}
+    cursor: pointer;
 
+}
