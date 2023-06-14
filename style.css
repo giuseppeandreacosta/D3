@@ -12,13 +12,13 @@ body {
 }
 
 .card-container{
-    height: 450px;
+    height: 400px;
     width: 350px;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 1px 4px 9px 1px rgba(0,0,0,0.68);
+    box-shadow: 1px 3px 9px 1px rgba(0,0,0,0.68);
     position: relative;
-    transition: box-shadow .5s;
+    transition: box-shadow .3s;
     color:white;
     user-select: none;  
 }
@@ -31,51 +31,41 @@ body {
     left: 0;
     right: 0;
     z-index: 2;
+    
   }
       /* transizioni icone*/
   .card-container:hover {
     box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+    filter:brightness(0.7);
   }
 
   .card-container:hover .savebutton {
-    transform: translateY(0);
+    transform: translateY(80px);
     opacity: 1;
   }
 
-  .card-container:hover .savebutton {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
+  
 
   .card-container:hover .dot {
-    transform: translateY(0);
+    transform: translateY(-65px);
     opacity: 1;
   }
 
-  .card-container:hover .dot {
-    transform: translateY(100%);
-    opacity: 0;
-  }
+  
 
   .card-container:hover .share {
-    transform: translateY(0);
+    transform: translateY(-65px);
     opacity: 1;
   }
 
-  .card-container:hover .share {
-    transform: translateY(100%);
-    opacity: 0;
-  }
+  
 
   .card-container:hover .lake {
-    transform: translateY(0);
+    transform: translateY(-65px);
     opacity: 1;
   }
 
-  .card-container:hover .lake {
-    transform: translateY(100%);
-    opacity: 0;
-  }
+ 
    /* fine transizioni */
 
    .img{
@@ -87,29 +77,21 @@ body {
     object-fit: cover;
     object-position: center;
     z-index: 0;
+    border-radius: 15px;
 }
 
 .savebutton {
     position: absolute;
-    margin:20px; 
-    bottom: 0;
-    left: 0;
-    right: 0;
+    
+    
     z-index: 3;
     padding-top: 10px;
-    text-align: center;
-    transform: translateY(0%)translateX(40%);
-    opacity: 1;
-    transition: opacity .2s, transform .1s;
-    transition-timing-function:ease-in-out;
     
-}
-
-
-.save {
-    position: absolute;
-    bottom:350px;
-    left: 220px;
+    transform: translateY(-10%)translateX(0%);
+    opacity: 1;
+    transition: 0.5s;
+    top:-60px;
+    left: 240px;
     border-radius: 40px;
     color: white;
     font-weight: bold;
@@ -119,39 +101,52 @@ body {
     width: 90px;
     cursor: pointer; 
     box-shadow: 1px 4px 9px 1px rgba(0,0,0,0.68);
-    line-height: 55px;
+    line-height: 38px;
     text-align: center;
-    transform: translateY(0);
-    opacity: 1;
-    transition: opacity .2s, transform .2s;
-    transition-timing-function:ease-in-out;
+    
+    
 }
+
 
 
 .lake {
     position: absolute;
-    top:380px;
+    bottom:-50px;
     left: 10px;
-    font-size: 40px;
+    font-size: 25px;
     border-radius: 50px;
     color:black;
-    line-height: 55px;
+    line-height: 50px;
     cursor: pointer;
-    background-color: #F0F0F0;
-    transform: translateY();
+    background-color: #ffffff;
+    transform: translateY(0);
     opacity: 1;
-    transition: opacity .2s, transform .2s;
+    transition: 0.5s;
     transition-timing-function:ease;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 1px 4px 9px 1px rgba(0,0,0,0.68);
 }
+
+.lake .lakeicon{
+  font-size: 25px;
+  padding-top: 5px;
+  padding-right: 5px;
+  transform: rotate(-40deg);
+}
+
 
 
 .share{
     position: absolute;
-    top: 380px;
-    left:230px;
+    bottom: -50px;
+    left:240px;
     color:black;
     cursor: pointer;
     font-size: 40px;
@@ -159,15 +154,21 @@ body {
     background-color: #F0F0F0;
     transform: translateY(0);
     opacity: 1;
-    transition: opacity .2s, transform .2s;
-    transition-timing-function:ease-in-out; 
+    transition: 0.5s;
+    transition-timing-function:ease; 
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 2px;
 }
+
 
 
 .dot {
     position: absolute;
-    top:380px;
-    left:280px;
+    bottom:-50px;
+    left:290px;
     font-size: 40px;
     color:black;
     cursor: pointer;
@@ -176,7 +177,11 @@ body {
     margin: auto;
     transform: translateY(0);
     opacity: 1;
-    transition: opacity .2s, transform .2s;
-    transition-timing-function:ease-in-out;
-    
+    transition: 0.5s;
+    transition-timing-function:ease;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 2px;
 }
