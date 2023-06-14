@@ -43,7 +43,7 @@ body {
   }
 
   .card-container:hover .savebutton {
-    transform: translateY(100%);
+    transform: translateY(-100%);
     opacity: 0;
   }
 
@@ -101,7 +101,7 @@ body {
     transform: translateY(50%);
     opacity: 1;
     transition: opacity .2s, transform .2s;
-    transition-timing-function:ease-out;
+    transition-timing-function:ease;
     
 }
 
