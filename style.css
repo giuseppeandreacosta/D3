@@ -98,10 +98,10 @@ body {
     z-index: 3;
     padding-top: 10px;
     text-align: center;
-    transform: translateY(50%);
+    transform: translateY(0%)translateX(40%);
     opacity: 1;
-    transition: opacity .2s, transform .2s;
-    transition-timing-function:ease;
+    transition: opacity .2s, transform .1s;
+    transition-timing-function:ease-in-out;
     
 }
 
@@ -141,7 +141,7 @@ body {
     transform: translateY();
     opacity: 1;
     transition: opacity .2s, transform .2s;
-    transition-timing-function:ease-in-out;
+    transition-timing-function:ease;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
