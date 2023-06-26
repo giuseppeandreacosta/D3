@@ -36,7 +36,7 @@ body {
       /* transizioni icone*/
   .card-container:hover {
     box-shadow: 0 6px 20px rgba(0,0,0,0.35);
-    filter:brightness(0.7);
+    filter:brightness(0.9);
   }
 
   .card-container:hover .savebutton {
